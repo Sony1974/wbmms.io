@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SCC_Maint_Navbar</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="maint_css.css">
+
+  </head>
+  <body>
+
+  	<!-- DOCUMENTATION NAVBAR -->
+
+  	<nav class="navbar navbar-expand-lg">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">       -->
+
+      <!-- <a class="navbar-brand" href="#">SCC Logo</a> -->
+      <a class="navbar-brand" href="https://www.saudicable.com"><img src="scc_new_logo.png" alt="SCC_Logo missing" width=180, height=50></a> </a>
+
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- This is the actual code that creates the "hamburger icon" -->
+      <!-- The data-target grabs ids to put into the icon -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <!-- Anything inside of collapse navbar-collapse goes into the "hamburger" -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="navbar-nav">
+
+          <!-- the span class "sr-only" tells screen readers that Home is the active link, for accessibility -->
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">KPI's</a>
+          <a class="nav-item nav-link" href="#">Forms</a>
+          <a class="nav-item nav-link" href="#">Reports</a>
+          <a class="nav-item nav-link" href="#">Utility</a>
+          <a class="nav-item nav-link" href="#">Login</a>          
+          <a class="nav-item nav-link disabled" href="#">Logout</a>
+
+          <!-- DROPDOWN MENU -->
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              KPI's
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbar-dropdown-menu">
+                <a class="dropdown-item" href="html_kpis_scc.html">SCC</a>
+                <a class="dropdown-item" href="#">PCP</a>
+                <a class="dropdown-item" href="#">TCP</a>
+                <a class="dropdown-item" href="#">PVC</a>
+
+
+              <!-- Use this to separate a new link: -->
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Forms
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbar-dropdown-menu">
+              <a class="dropdown-item" href="#">Daily Shift Activities </a>
+              <a class="dropdown-item" href="#">Daily Machineshop Activities</a>
+              <a class="dropdown-item" href="#">Daily PM Activities</a>
+              <!-- <a class="dropdown-item" href="http://www.google.com">Go to Google</a> -->
+
+
+              <!-- Use this to separate a new link: -->
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">OHSAS</a>
+
+            </div>
+          </div>
+
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Report
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbar-dropdown-menu">
+              <a class="dropdown-item" href="#">Shift Report </a>
+              <a class="dropdown-item" href="#">Machineshop Report</a>
+              <a class="dropdown-item" href="#">Utility Report</a>
+              <a class="dropdown-item" href="#">Risk Management Report</a>
+
+              <!-- <a class="dropdown-item" href="http://www.google.com">Go to Google</a> -->
+
+
+              <!-- Use this to separate a new link: -->
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">In house Fabrication Report</a>
+            </div>
+          </div>
+
+
+          <!-- SEARCH BAR -->
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline my-2 my-sm-0" type="submit">Submit</button>
+          </form>
+
+        </div> <!-- /.navbar-nav, left-hand content -->
+
+        <!-- STUFF ON THE RIGHT -->
+        <div class="navbar-nav ml-auto">
+
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Certificates
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbar-dropdown-menu">
+                  <a class="dropdown-item" href="#">ISO 9001-2015 </a>
+                  <a class="dropdown-item" href="#">ISO 45001-2018</a>
+                  <a class="dropdown-item" href="#">Utility Report</a>
+                  <!-- <a class="dropdown-item" href="http://www.google.com">Go to Google</a> -->
+    
+    
+                  <!-- Use this to separate a new link: -->
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">In house Fabrication Report</a>
+                </div>
+              </div>
+
+          <a class="nav-item nav-link" href="#">Live Dashboard</a>
+
+        </div> <!-- /.navbar-nav, right-hand content -->
+
+      </div> <!-- /.navbar-collapse -->
+    </nav>
+
+
+  <!-- OTHER STUFF ON THE PAGE -->
+
+  <div class="container" >
+    <div class="jumbotron">
+      <h1>Plant Maintenance</h1>
+
+      <p>Plant Maintenance Department is responsible for day to day maintenance activities of the Machineries in the Power Cable Plant, Telecable Plant, PVC Plant, Reel Recovery and Rod Mill.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <!-- A mission statement should state what your business unit does, what you care about, 
+      and why someone should use your services. -->
+    <h2>Mission</h2>
+    <p>To establish and invest in manufacturing facilities and related services, allowing us to produce high-missionquality cable technology – and associated materials and products.</p> 
+    <p>Marketing these products and services in the Middle East and internationally, we will deliver customer satisfaction and achieve pre-eminence in the industry.</p> 
+  </div>
+
+  <div class="container">
+    <h2>Vision</h2>
+    <p>To be a world-class provider of total energy and telecommunications system solutions. Our expert, empowered teams support customers dynamically, connecting people, places and organisations around the world.</p>
+   </div>
+
+   <div class="container">
+       <div class="values">
+            <h2>Our values</h2>
+            <p>At SCC we encourage a high-performance culture and foster a keen sense of ownership amongst ourteam. 
+                We live by our ‘I-CARE’ values, to promote ingenuity, respect and quality in all our actions.</p>
+            <div class="values-items">
+                <ul>
+                    <li><b>Innovation:</b>  Creative thinking that adds value.</li>
+                    <li><b>Commitment:</b>  Transforming promise into reality, as one team.</li>
+                    <li><b>Appreciation:</b>  Recognizing the achievement of others.</li>
+                    <li><b>Respect:</b>  Showing admiration and consideration to everyone.</li>
+                    <li><b>Excellence:</b>  Delivering outstanding results.</li>
+                </ul>
+            </div>     
+       </div>
+
+    </div>
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Need to have JQuery and Javascript for DropDown Actions to work -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

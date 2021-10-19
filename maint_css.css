@@ -1,0 +1,17 @@
+.navbar{
+    background-color: #ec8d56;
+}
+
+.nav-item{
+    color: rgb(72, 255, 0);
+}
+
+.nav-item+dropdown{
+    color: lightgreen;
+}
+
+.values{
+    color: #ec8d56;
+    margin-bottom: 0.1em;
+ 
+}
